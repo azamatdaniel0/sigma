@@ -1,0 +1,290 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+.background__color__pages {
+  background-color: #E5E5E5;
+}
+
+/* 1 Greeting */
+.label__for__greeting {
+  /* Rectangle 1 */
+  position: absolute;
+  width: 384px;
+  height: 62px;
+  left: 371px;
+  top: 239px;
+
+  filter: drop-shadow(0px 14.0625px 42.1875px rgba(129, 135, 189, 0.15));
+  background: #FFFFFF;
+  border-radius: 4400px;
+  /* text-style */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+
+
+}
+
+.button__custom__greeting {
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  left: 502px;
+  top: 343px;
+
+  background-color: #FDB82C;
+  box-shadow: 0px 16px 48px rgba(129, 135, 189, 0.15);
+  border-radius: 999px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.maskot__greeting__image {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+
+
+/* 2 Registration */
+.btn__back {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 20px;
+  top: 20px;
+}
+
+.number__form__registration {
+  position: absolute;
+  left: 32%;
+  top: 35%;
+}
+
+.number__label__registration {
+  position: absolute;
+  width: 142px;
+  height: 19px;
+  left: calc(50% - 142px/2 + 0.5px);
+  top: calc(50% - 19px/2 - 38.5px);
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.number__input__registration {
+  background: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  border-radius: 16px;
+}
+
+.button__custom__registration {
+  /* Auto layout */
+  position: relative;
+  width: 130px;
+  height: 36px;
+  left: 33%;
+  top: 22px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.button__custom__greeting {
+  width: 130px;
+  height: 36px;
+  background-color: #FDB82C;
+  box-shadow: 0px 16px 48px rgba(129, 135, 189, 0.15);
+  border-radius: 999px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* 3 Code */
+.restart__code {
+  position: relative;
+  text-align: center;
+}
+
+
+.items {
+  background: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  border-radius: 16px;
+  width: 484px;
+  ;
+}
+
+.main__category__text {
+  position: relative;
+  left: 3%;
+  top: 3%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.second__category__text {
+  position: relative;
+  left: 3%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #9498B3;
+}
+
+.items__block {
+  position: absolute;
+  left: 321px;
+  top: 104px;
+}
+
+
+
+/* 4.1 Info by number */
+
+.rectangle__your__number {
+  position: absolute;
+  left: 80px;
+  top: 38px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+}
+
+.lead__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #9498B3;
+}
+
+.main__text__number {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.second__text__number {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ul__ptrices__tarifs {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  color: #000000;
+  list-style-type: none;
+  
+}
+
+.pricing-card-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.price__time {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+
+  color: #000000;
+}
+
+.background__color__pages__pop{
+  background-image: url('/images/info__tarif.jpg');
+
+}
+.background__color__pages_pop2{
+  background-image: url('/images/akcii.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 200px 90px;
+}
